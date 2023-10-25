@@ -26,7 +26,7 @@ namespace RGR
             previous = Int32.Parse(this.textBox2.Text);
             difference = current - previous;
             this.textBox3.Text = difference.ToString();
-            this.textBox4.Text = (difference * 7.8f).ToString();
+            this.textBox4.Text = (difference * 7.99f).ToString();
         }
     }
 }
