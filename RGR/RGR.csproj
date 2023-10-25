@@ -52,6 +52,18 @@
     <Compile Include="Form1.Designer.cs">
       <DependentUpon>Form1.cs</DependentUpon>
     </Compile>
+    <Compile Include="GasCalc.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="GasCalc.Designer.cs">
+      <DependentUpon>GasCalc.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Matrix.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Matrix.Designer.cs">
+      <DependentUpon>Matrix.cs</DependentUpon>
+    </Compile>
     <Compile Include="Notepad.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -69,8 +81,14 @@
     <EmbeddedResource Include="Form1.resx">
       <DependentUpon>Form1.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="GasCalc.resx">
+      <DependentUpon>GasCalc.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Help.resx">
       <DependentUpon>Help.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Matrix.resx">
+      <DependentUpon>Matrix.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Notepad.resx">
       <DependentUpon>Notepad.cs</DependentUpon>

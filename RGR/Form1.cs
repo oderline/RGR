@@ -30,5 +30,17 @@ namespace RGR
             Help help = new Help();
             help.Show();
         }
+
+        private void завдання2ToolStripMenuItem1_Click(object sender, EventArgs e)
+        {
+            GasCalc gas_cals = new GasCalc();
+            gas_cals.Show();
+        }
+
+        private void завдання3ToolStripMenuItem1_Click(object sender, EventArgs e)
+        {
+            Matrix matrix = new Matrix();
+            matrix.Show();
+        }
     }
 }

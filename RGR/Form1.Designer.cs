@@ -47,7 +47,8 @@
             this.label1.AutoSize = true;
             this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 24F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.label1.ForeColor = System.Drawing.Color.Red;
-            this.label1.Location = new System.Drawing.Point(68, 50);
+            this.label1.Location = new System.Drawing.Point(60, 48);
+            this.label1.Margin = new System.Windows.Forms.Padding(5, 0, 5, 0);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(669, 37);
             this.label1.TabIndex = 0;
@@ -58,7 +59,8 @@
             this.label2.AutoSize = true;
             this.label2.Font = new System.Drawing.Font("Microsoft Sans Serif", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.label2.ForeColor = System.Drawing.Color.Purple;
-            this.label2.Location = new System.Drawing.Point(85, 149);
+            this.label2.Location = new System.Drawing.Point(77, 143);
+            this.label2.Margin = new System.Windows.Forms.Padding(5, 0, 5, 0);
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(623, 29);
             this.label2.TabIndex = 1;
@@ -69,7 +71,8 @@
             this.label3.AutoSize = true;
             this.label3.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.label3.ImageAlign = System.Drawing.ContentAlignment.MiddleRight;
-            this.label3.Location = new System.Drawing.Point(480, 253);
+            this.label3.Location = new System.Drawing.Point(478, 298);
+            this.label3.Margin = new System.Windows.Forms.Padding(5, 0, 5, 0);
             this.label3.Name = "label3";
             this.label3.Size = new System.Drawing.Size(292, 50);
             this.label3.TabIndex = 2;
@@ -79,7 +82,8 @@
             // 
             this.label4.AutoSize = true;
             this.label4.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.label4.Location = new System.Drawing.Point(319, 427);
+            this.label4.Location = new System.Drawing.Point(315, 427);
+            this.label4.Margin = new System.Windows.Forms.Padding(5, 0, 5, 0);
             this.label4.Name = "label4";
             this.label4.Size = new System.Drawing.Size(190, 25);
             this.label4.TabIndex = 3;
@@ -93,7 +97,8 @@
             this.вихідToolStripMenuItem});
             this.menuStrip1.Location = new System.Drawing.Point(0, 0);
             this.menuStrip1.Name = "menuStrip1";
-            this.menuStrip1.Size = new System.Drawing.Size(784, 24);
+            this.menuStrip1.Padding = new System.Windows.Forms.Padding(10, 3, 0, 3);
+            this.menuStrip1.Size = new System.Drawing.Size(784, 25);
             this.menuStrip1.TabIndex = 4;
             this.menuStrip1.Text = "menuStrip1";
             // 
@@ -117,14 +122,16 @@
             // завдання2ToolStripMenuItem1
             // 
             this.завдання2ToolStripMenuItem1.Name = "завдання2ToolStripMenuItem1";
-            this.завдання2ToolStripMenuItem1.Size = new System.Drawing.Size(134, 22);
-            this.завдання2ToolStripMenuItem1.Text = "Завдання 2";
+            this.завдання2ToolStripMenuItem1.Size = new System.Drawing.Size(180, 22);
+            this.завдання2ToolStripMenuItem1.Text = "Калькулятор газу";
+            this.завдання2ToolStripMenuItem1.Click += new System.EventHandler(this.завдання2ToolStripMenuItem1_Click);
             // 
             // завдання3ToolStripMenuItem1
             // 
             this.завдання3ToolStripMenuItem1.Name = "завдання3ToolStripMenuItem1";
-            this.завдання3ToolStripMenuItem1.Size = new System.Drawing.Size(134, 22);
-            this.завдання3ToolStripMenuItem1.Text = "Завдання 3";
+            this.завдання3ToolStripMenuItem1.Size = new System.Drawing.Size(180, 22);
+            this.завдання3ToolStripMenuItem1.Text = "Матриці";
+            this.завдання3ToolStripMenuItem1.Click += new System.EventHandler(this.завдання3ToolStripMenuItem1_Click);
             // 
             // довідкаToolStripMenuItem
             // 
@@ -142,7 +149,7 @@
             // 
             // Form1
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(10F, 21F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(255)))), ((int)(((byte)(192)))));
             this.ClientSize = new System.Drawing.Size(784, 461);
@@ -151,7 +158,9 @@
             this.Controls.Add(this.label2);
             this.Controls.Add(this.label1);
             this.Controls.Add(this.menuStrip1);
+            this.Font = new System.Drawing.Font("Times New Roman", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.MainMenuStrip = this.menuStrip1;
+            this.Margin = new System.Windows.Forms.Padding(5, 5, 5, 5);
             this.Name = "Form1";
             this.Text = "Розрахунково-графічна робота";
             this.menuStrip1.ResumeLayout(false);
